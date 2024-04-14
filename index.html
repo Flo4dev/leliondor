@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Hôtel Le Lion D'Or</title>
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+   <!-- swiper js cdn link -->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <!-- custom css link -->
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+   <!-- header -->
+
+   <header class="header">
+
+      <a href="#" class="logo"> <!--<i class="fas fa-hotel"></i> --> <img src="logo1.png" alt=""> Hôtel Le Lion D'or </a>
+
+      <nav class="navbar">
+         <a href="#home">Accueil</a>
+         <a href="#about">Hôtel</a>
+         <a href="#room">Chambres</a>
+         <a href="#gallery">Restaurant</a>
+     <!--    <a href="#review">review</a> -->
+       <!--  <a href="#faq">faq</a> -->
+         <a href="#reservation" class="btn"> Réserver maintenant </a>
+      </nav>
+
+      <div id="menu-btn" class="fas fa-bars"></div>
+
+   </header>
+
+   <!-- end -->
+
+   <!-- home -->
+
+   <section class="home" id="home">
+
+      <div class="swiper home-slider">
+
+         <div class="swiper-wrapper">
+
+            <div class="swiper-slide slide" style="background: url(hotel1.jpg) no-repeat;">
+               <div class="content">
+                  
+                 
+               </div>
+            </div>
+
+            <div class="swiper-slide slide" style="background: url(hotel2.jpg) no-repeat;">
+               <div class="content">
+                  
+               
+               </div>
+            </div>
+
+         </div>
+
+         <div class="swiper-button-next"></div>
+         <div class="swiper-button-prev"></div>
+
+      </div>
+
+   </section>
+
+   <!-- end -->
+
+   <!-- availability -->
+
+   <section class="availability">
+
+      <form action="">
+
+         <div class="box">
+            <p>Date D'arrivée <span>*</span></p>
+            <input type="date" class="input">
+         </div>
+
+         <div class="box">
+            <p>Date de départ <span>*</span></p>
+            <input type="date" class="input">
+         </div>
+
+         <div class="box">
+            <p>Adultes <span>*</span></p>
+            <select name="adults" id="" class="input">
+               <option value="1">1 adulte</option>
+               <option value="2">2 adultes</option>
+               <option value="3">3 adultes</option>
+            </select>
+         </div>
+
+         <div class="box">
+            <p>Enfants <span>*</span></p>
+            <select name="child" id="" class="input">
+			   <option value="1">Sans enfant</option>
+               <option value="1">1 enfant</option>
+               <option value="2">2 enfants</option>
+               <option value="3">3 enfants</option>
+            </select>
+         </div>
+
+         <div class="box">
+            <p>Chambres <span>*</span></p>
+            <select name="rooms" id="" class="input">
+               <option value="1">chambre n°1</option>
+               <option value="2">chambre n°4</option>
+               <option value="3">chambre n°7</option>
+               <option value="4">chambre n°9</option>
+               <option value="5">chambre n°11</option>
+            </select>
+         </div>
+
+
+      </form>
+
+   </section>
+
+   <!-- end -->
+
+
+   <!-- about -->
+   
+
+
+   <section class="about" id="about">
+
+      <div class="row">
+
+         <div class="image">
+            <img src="hotel2.jpg" alt="">
+         </div>
+
+         <div class="content">
+            <h3> HÔTEL</h3>
+			<p>L'Hôtel Le Lion d'Or situé dans le petit village d'Ecueillé fait parti du département de l'Indre centre-Val de Loire. Cet ancien relai de poste construit en 1890 à été transformé en un hôtel chaleureux et confortable.</p>
+			<p>Idéalement placé pour une étape patrimoine nature et découverte des châteaux de la Loire: Valencay, Chenonceaux, Chambord, Montrésor, Bouges, Cheverny... <br>et pour une visite en famille du zoo parc de Beauval, l'un des 4 plus beaux zoos du monde, à 20 minutes en voiture.</br></p>   
+			<p>L'hôtel dispose de 5 chambres récemment rénovées, un petit-déjeuner peut vous être proposé.</p>
+			<p>Si vous le souhaitez l'hôtel dispose d'un restaurant offrant une cuisine conviviale et traditionnelle.</p>
+         </div>
+
+      </div>
+
+   </section>
+
+  
+
+   <section class="room" id="room">
+
+      <h1 class="heading">Chambres</h1>
+
+      <div class="swiper room-slider">
+
+         <div class="swiper-wrapper">
+
+            <div class="swiper-slide slide">
+               <div class="image">
+                  <span class="price">60€/nuit</span>
+				  
+                  <img src="chambre1.jpg" alt="">
+				  
+				  
+               <!--   <img src="images/chambre1_salle_eau.jpg" alt=""> -->
+				  
+                
+               </div>
+               <div class="content">
+                  <h3>Chambre n°1 « Sourire »</h3>
+                  <p>1 lit de 2 personnes 140 avec douche, WC séparé, TV, Wifi.</p>
+				  <p>Petit-déjeuner non compris 8€ en salle/9€ en chambre</p>
+				 
+                  <a href="#"  class="btn">réserver maintenant</a>
+				 
+				 
+					
+				</div>
+				
+            </div>  
+			
+
+            <div class="swiper-slide slide">
+               <div class="image">
+                  <span class="price">60€/nuit</span>
+                  <img src="chambre4.jpg" alt="">
+                  
+               </div>
+               <div class="content">
+                  <h3>Chambre n°4 « Simplicité »</h3>
+                  <p>1 lit de 2 personnes 140 avec douche, WC séparé, TV, Wifi.</p>
+				  <p>Petit-déjeuner non compris 8€ en salle/9€ en chambre</p>
+                  
+                  <a href="#" class="btn">réserver maintenant</a>
+               </div>
+			   
+            </div>
+
+            <div class="swiper-slide slide">
+               <div class="image">
+                  <span class="price">60€/nuit</span>
+                  <img src="chambre7.jpg" alt="">
+                  
+               </div>
+               <div class="content">
+                  <h3>Chambre n°7 « Convivialité »</h3>
+                  <p>1 lit de 2 personnes 160 avec douche, WC séparé, TV, Wifi.</p>
+				  <p>Petit-déjeuner non compris 8€ en salle/9€ en chambre</p>
+                  
+                  <a href="#" class="btn">réserver maintenant</a>
+               </div>
+			   
+            </div>
+
+            <div class="swiper-slide slide">
+               <div class="image">
+                  <span class="price">60€/nuit</span>
+                  <img src="image_slide.jpg" alt="">
+                  
+               </div>
+               <div class="content">
+                  <h3>Chambre n°9 « Sympathique »</h3>
+                  <p>1 lit de 2 personnes 140 avec douche, WC séparé, TV, Wifi.</p>
+				  <p>Petit-déjeuner non compris 8€ en salle/9€ en chambre</p>
+                  
+                  <a href="#" class="btn">réserver maintenant</a>
+               </div>
+			   
+            </div>
+
+            <div class="swiper-slide slide">
+               <div class="image">
+                  <span class="price">60€/nuit</span>
+                  <img src="chambre11.jpg" alt="">
+                  
+               </div>
+               <div class="content">
+                  <h3>Chambre n°11 « Convivialité, sourire »</h3>
+                  <p>1 lit de 2 personnes 140 avec douche, WC séparé, TV, Wifi.</p>
+				  <p>Petit-déjeuner non compris 8€ en salle/9€ en chambre</p>
+                  
+                  <a href="#" class="btn">réserver maintenant</a>
+               </div>
+			   
+            </div>
+			
+         </div>
+
+         <div class="swiper-pagination"></div>
+		 
+
+      </div>
+	  
+
+   </section>
+
+	<section class="gallery-room" id="gallery-room">
+
+      
+
+      <div class="swiper gallery-room-slider">
+
+         <div class="swiper-wrapper">
+
+            <div class="swiper-slide slide">
+               <img src="chambre1_salle_eau.jpg" alt="">
+               
+            </div>
+
+            <div class="swiper-slide slide">
+               <img src="chambre4_salon.jpg" alt="">
+               
+            </div>
+
+            <div class="swiper-slide slide">
+               <img src="chambre4_salon2.jpg" alt="">
+               
+            </div>
+
+            <div class="swiper-slide slide">
+               <img src="chambre11_salle_eau.jpg" alt="">
+               
+            </div>
+
+            <div class="swiper-slide slide">
+               <img src="chambre11_salon.jpg" alt="">
+               
+            </div>
+
+            <div class="swiper-slide slide">
+               <img src="chambre11_salon2.jpg" alt="">
+               
+            </div>
+	
+         </div>
+			<div class="swiper-button-next"></div>
+			<div class="swiper-button-prev"></div>
+      </div>
+
+   </section>
+
+   <section class="gallery" id="gallery">
+
+      <h1 class="heading">Restaurant</h1>
+
+      <div class="swiper gallery-slider">
+
+         <div class="swiper-wrapper">
+
+            <div class="swiper-slide slide">
+               <img src="gallery1.jpg" alt="">
+               <div class="icon">
+                  <i class="fas fa-magnifying-glass-plus"></i>
+               </div>
+            </div>
+
+            <div class="swiper-slide slide">
+               <img src="gallery2.jpg" alt="">
+               <div class="icon">
+                  <i class="fas fa-magnifying-glass-plus"></i>
+               </div>
+            </div>
+
+            <div class="swiper-slide slide">
+               <img src="gallery3.jpg" alt="">
+               <div class="icon">
+                  <i class="fas fa-magnifying-glass-plus"></i>
+               </div>
+            </div>
+
+            <div class="swiper-slide slide">
+               <img src="gallery4.jpg" alt="">
+               <div class="icon">
+                  <i class="fas fa-magnifying-glass-plus"></i>
+               </div>
+            </div>
+
+            <div class="swiper-slide slide">
+               <img src="gallery5.jpg" alt="">
+               <div class="icon">
+                  <i class="fas fa-magnifying-glass-plus"></i>
+               </div>
+            </div>
+
+            <div class="swiper-slide slide">
+               <img src="gallery6.jpg" alt="">
+               <div class="icon">
+                  <i class="fas fa-magnifying-glass-plus"></i>
+               </div>
+            </div>
+			
+			
+         </div>
+			<div class="menu">
+	          <p>Le restaurant dispose d'un menu du jour midi et soir.</p>
+			</div>
+      </div>
+
+   </section>
+
+   
+
+   <!-- footer -->
+
+   <section class="footer">
+
+      <div class="box-container">
+
+         <div class="box">
+            <h3>Contact</h3>
+            <a href="#"> <i class="fas fa-phone"></i> 02 54 40 29 22 </a>
+            <a href="#"> <i class="fas fa-envelope"></i> Leliondor@gmail.com</a>
+            <a href="#"> <i class="fas fa-map"></i> 11 Pl. du 8ème Cuirassiers, 36240 Écueillé</a>
+         </div>
+
+		<div class="resp-container">
+        <iframe width="300" height="150" class="resp-iframe" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2716.738386068219!2d1.3428577!3d47.0845937!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47fb610754d145ef%3A0x5d5ae2405e0d77eb!2sH%C3%B4tel%20Le%20Lion%20D&#39;or!5e0!3m2!1sfr!2sfr!4v1710168530107!5m2!1sfr!2sfr" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+		</div>
+      
+
+      <div class="share">
+         <a href="#" class="fab fa-facebook-f"></a>
+         <a href="#" class="fab fa-instagram"></a>
+         <a href="#" class="fab fa-twitter"></a>
+         <a href="#" class="fab fa-pinterest"></a>
+      </div>
+
+      
+
+   </section>
+
+   <!-- end -->
+
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+   
+   
+   
+
+   <script src="script.js"></script>
+
+</body>
+</html>
